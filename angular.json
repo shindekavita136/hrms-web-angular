@@ -25,9 +25,23 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [  
+              "src/js/jquery-1.11.1.min.js",
+              "src/js/modernizr-2.6.2.min.js",
+              "src/js/jquery.zoomslider.min.js",
+              "src/js/classie-search.js",
+              "src/js/demo1-search.js",
+              "src/js/jquery.waypoints.min.js", 
+              "src/js/jquery.countup.js",
+              "src/js/bootstrap.js",
+              "src/js/move-top.js",
+              "src/js/easing.js"            
+             ],
             "es5BrowserSupport": true
           },
+
+
+          
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -82,7 +96,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [ ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
